@@ -4,8 +4,8 @@ use CodeIgniter\Model;
 
 class BlogModel extends Model{
     protected $table = 'blog';
-    protected $primaryKey = 'post_id';
-    protected $allowedFields = ['blog_titulo','blog_descripcion'];  
+    protected $primaryKey = 'blog_id';
+    protected $allowedFields = ['blog_titulo','blog_descripcion','blog_usuario','blog_estado','region_id'];  
     
     
 }
